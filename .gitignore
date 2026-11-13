@@ -1,0 +1,43 @@
+.vscode/
+__pycache__
+datasets/
+train_test_data/
+old/
+my_exp
+synthetic_data_files/
+.Rhistory
+dcr_results/
+my_data/
+STaSy/tensorboard
+STaSy/checkpoints-meta
+TabDDPM/exp
+umap_results/
+
+# Local environments and Python tooling
+.venv/
+venv/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Generated privacy evaluations; curated paper results can be stored separately
+/privacy_metrics_all/
+
+# Cross-platform filesystem metadata
+.DS_Store
+Thumbs.db
+
+# Local analysis output and verification environments
+/Results/generated/
+/.venv-*/
+/.validation/
+/tests/

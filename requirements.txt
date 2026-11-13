@@ -1,0 +1,32 @@
+# Generation benchmark and Iris scatter plots. Use a separate environment for privacy.
+# The bundled TabDDPM rtdl package declares numpy<2 and torch<2.
+# These dependencies are derived from imports. See README for validation status.
+
+absl-py
+category-encoders
+ForestDiffusion
+icecream
+joblib
+libzero
+matplotlib
+ml-collections
+numpy
+openpyxl
+pandas
+POT
+rtdl
+scikit-learn
+scipy
+sdv
+statsmodels
+syndat
+tensorboard
+tensorflow
+tomli
+tomli-w
+torch
+torchdiffeq
+tqdm
+wget
+xgboost
+xlrd

@@ -1,0 +1,2 @@
+anonymeter==1.1.0
+syndat==0.13.6
